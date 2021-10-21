@@ -1,0 +1,1 @@
+fetch('https://bootcamp-cors-proxy.herokuapp.com/http://api.mediastack.com/v1/news?access_key=0278e9eb0d1243941cd5e996a18101f7&categories=business&countries=au,us').then(res => res.json()).then(data => document.querySelector('#output').innerText = JSON.stringify(data));
